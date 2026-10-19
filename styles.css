@@ -42,9 +42,9 @@ everywhere it's used.
 
 :root {
     /* Colors */
-    --primary-color: #2c3e50;
-    --secondary-color: #34495e;
-    --accent-color: #2672ad;
+    --primary-color: #8a4a33;
+    --secondary-color: #db4513;
+    --accent-color: #551500;
     --text-dark: #2c3e50;
     --text-light: #5f6f73;
     /*
@@ -233,7 +233,7 @@ is hidden, because clip hides it visually without removing it from the page.
 */
 
 header {
-    background-color: var(--primary-color);
+    background-color: var(--accent-color);
     color: var(--white);
     padding: var(--spacing-sm) 0;
     position: sticky;
