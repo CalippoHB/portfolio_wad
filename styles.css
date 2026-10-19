@@ -306,11 +306,8 @@ header {
 */
 
 .hero {
-    background-color: var(--primary-color);
-    /*
-    Try replacing with:
     background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
-    */
+   
     color: var(--white);
     text-align: center;
     padding: var(--spacing-xl) 0;
@@ -356,7 +353,7 @@ header {
 
 .card {
     background-color: var(--white);
-    padding: var(--spacing-md);
+    padding: var(--spacing-sm) 0;
     border-radius: var(--radius-md);
     box-shadow: var(--shadow-md);
     transition: transform var(--transition-fast), box-shadow var(--transition-fast);
