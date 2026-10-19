@@ -44,9 +44,9 @@ everywhere it's used.
 
 :root {
     /* Colors */
-    --primary-color: #8a4a33;
-    --secondary-color: #db4513;
-    --accent-color: #551500;
+    --primary-color: #689d6a;
+    --secondary-color: #427b58;
+    --accent-color: #427b58;
     --text-dark: #2c3e50;
     --text-light: #5f6f73;
     /*
@@ -55,8 +55,8 @@ everywhere it's used.
     pass the 4.5 to 1 contrast ratio that accessibility guidelines ask for.
     If you change them, a contrast checker will tell you whether they still pass.
     */
-    --white: #ffffff;
-    --light-gray: #f8f9fa;
+    --white: #ebdbb2;
+    --light-gray: #d5c4a1;
 
     /* Spacing - rem units scale with user's font size preferences */
     --spacing-xs: 0.5rem;
@@ -66,7 +66,7 @@ everywhere it's used.
     --spacing-xl: 4rem;
 
     /* Typography */
-    --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --font-main: 'Courier New', Tahoma, Geneva, Verdana, sans-serif;
 
     /* Animation */
     --transition-fast: 0.2s ease;
@@ -352,9 +352,10 @@ header {
 }
 
 .card {
-    background-color: var(--white);
-    padding: var(--spacing-sm) 0;
-    border-radius: var(--radius-md);
+    font-size: 1.5rem;
+    background-color: var(--light-gray);
+    padding: var(--spacing-md);
+    border-radius: var(--radius-sm);
     box-shadow: var(--shadow-md);
     transition: transform var(--transition-fast), box-shadow var(--transition-fast);
     /*
@@ -363,18 +364,18 @@ header {
     */
 }
 
-/* → Exercise 22: Uncomment to add hover effects
+/* → Exercise 22: Uncomment to add hover effects*/
 .card:hover {
     transform: translateY(-5px);
     box-shadow: var(--shadow-lg);
 }
-*/
 
-/* → Exercise 18: Uncomment to style the skills section differently
+
+/* → Exercise 18: Uncomment to style the skills section differently */
 .skills-section {
     background-color: var(--light-gray);
 }
-
+/*
 .skills-section .card {
     border-left: 4px solid var(--accent-color);
 }
