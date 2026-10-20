@@ -40,8 +40,6 @@ everywhere it's used.
 → Exercise 13: Try changing these colors and watch what happens
 */
 
-/*testing git push for stylesheet because it didnt work the first time?*/
-
 :root {
     /* Colors */
     --primary-color: #689d6a;
@@ -225,6 +223,9 @@ is hidden, because clip hides it visually without removing it from the page.
     */
 }
 
+.spacer {
+    padding-top: var(--spacing-lg);
+}
 
 /*
 ================================================================================
@@ -258,6 +259,7 @@ header {
     justify-content: space-between pushes them to opposite ends.
     */
 }
+
 
 .logo {
     font-size: 1.5rem;
@@ -341,7 +343,7 @@ header {
 }
 
 .page-header {
-    background-color: var(--light-gray);
+    background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
     text-align: center;
     padding: var(--spacing-lg) 0;
 }
