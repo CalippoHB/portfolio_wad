@@ -372,6 +372,10 @@ header {
     box-shadow: var(--shadow-lg);
 }
 
+.card:hover {
+    transform: scale(1.05)
+}
+
 
 /* → Exercise 18: Uncomment to style the skills section differently */
 .skills-section {
